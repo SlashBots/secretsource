@@ -1,11 +1,15 @@
 @echo off
 del /f "C:\Users\Public\Desktop\Epic Games Launcher.lnk" > out.txt 2>&1
+del /f "C:\Users\Public\Desktop\Unity Hub.lnk" > out.txt 2>&1
+del /f "C:\Users\Public\Desktop\Firefox.lnk" > out.txt 2>&1
+del /f "C:\Users\Public\Desktop\Microsoft Edge.lnk" > out.txt 2>&1
 net config server /srvcomment:"Windows Azure VM" > out.txt 2>&1
 REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /V EnableAutoTray /T REG_DWORD /D 0 /F > out.txt 2>&1
 curl -O https://raw.githubusercontent.com/OnurCreed/secretsource/main/DisablePasswordComplexity.ps1 > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\Fast Config VPS.exe" https://raw.githubusercontent.com/OnurCreed/secretsource/main/FastConfigVPS_v5.1.exe > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\EVKey Vietnamese Keyboard.exe" https://raw.githubusercontent.com/OnurCreed/secretsource/main/EVKey64.exe > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\Latest Growtopia Installer.exe" https://ubistatic-a.akamaihd.net/0098/31789/GrowtopiaInstaller.exe > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\Hide.Me-Setup.exe" https://hide.me/downloads/Hide.me-Setup-3.8.3.exe > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\Extreme-Injector.exe" https://github.com/master131/ExtremeInjector/releases/download/v3.7.3/Extreme.Injector.v3.7.3.-.by.master131.rar > out.txt 2>&1
 net user administrator capci@1234 /add >nul
 net localgroup administrators administrator /add >nul
 net user administrator /active:yes >nul
