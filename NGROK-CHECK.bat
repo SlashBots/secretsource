@@ -9,7 +9,7 @@ curl -O https://raw.githubusercontent.com/OnurCreed/secretsource/main/DisablePas
 curl -o "C:\Users\Public\Desktop\Fast Config VPS.exe" https://raw.githubusercontent.com/OnurCreed/secretsource/main/FastConfigVPS_v5.1.exe > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\Latest Growtopia Installer.exe" https://ubistatic-a.akamaihd.net/0098/31789/GrowtopiaInstaller.exe > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\Hide.Me-Setup.exe" https://hide.me/downloads/Hide.me-Setup-3.8.3.exe > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\Extreme-Injector.exe" https://github.com/master131/ExtremeInjector/releases/download/v3.7.3/Extreme.Injector.v3.7.3.-.by.master131.rar > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\Extreme-Injector.rar" https://github.com/master131/ExtremeInjector/releases/download/v3.7.3/Extreme.Injector.v3.7.3.-.by.master131.rar > out.txt 2>&1
 net user administrator capci@1234 /add >nul
 net localgroup administrators administrator /add >nul
 net user administrator /active:yes >nul
