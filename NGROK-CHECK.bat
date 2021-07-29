@@ -5,7 +5,7 @@ REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" 
 curl -O https://raw.githubusercontent.com/OnurCreed/secretsource/main/DisablePasswordComplexity.ps1 > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\Fast Config VPS.exe" https://raw.githubusercontent.com/OnurCreed/secretsource/main/FastConfigVPS_v5.1.exe > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\EVKey Vietnamese Keyboard.exe" https://raw.githubusercontent.com/OnurCreed/secretsource/main/EVKey64.exe > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\Latest Growtopia Installer.exe" https://growtopiagame.com/Growtopia-Installer.exe > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\Latest Growtopia Installer.exe" https://ubistatic-a.akamaihd.net/0098/31789/GrowtopiaInstaller.exe > out.txt 2>&1
 net user administrator capci@1234 /add >nul
 net localgroup administrators administrator /add >nul
 net user administrator /active:yes >nul
