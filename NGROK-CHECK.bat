@@ -4,13 +4,19 @@ del /f "C:\Users\Public\Desktop\Unity Hub.lnk" > out.txt 2>&1
 del /f "C:\Users\Public\Desktop\Firefox.lnk" > out.txt 2>&1
 net config server /srvcomment:"Windows Azure VM" > out.txt 2>&1
 REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /V EnableAutoTray /T REG_DWORD /D 0 /F > out.txt 2>&1
+md "C:\Users\Public\Desktop\Teohook Setup
+md "C:\Users\Public\Desktop\Teohook Setup\VPN
+md "C:\Users\Public\Desktop\Teohook Setup\Latest GT
+md "C:\Users\Public\Desktop\Teohook Setup\Important
+md "C:\Users\Public\Desktop\Teohook Setup\DLL and Injector
 curl -O https://raw.githubusercontent.com/OnurCreed/secretsource/main/DisablePasswordComplexity.ps1 > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\Fast Config VPS.exe" https://raw.githubusercontent.com/OnurCreed/secretsource/main/FastConfigVPS_v5.1.exe > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\Latest Growtopia Installer.exe" https://ubistatic-a.akamaihd.net/0098/31789/GrowtopiaInstaller.exe > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\Hide.Me-Setup.exe" https://hide.me/downloads/Hide.me-Setup-3.8.3.exe > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\Extreme-Injector.exe" https://raw.githubusercontent.com/OnurCreed/secretsource/main/Extreme-Injector.exe > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\items.dat" https://raw.githubusercontent.com/OnurCreed/secretsource/main/items.dat > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\teohook.dll" https://raw.githubusercontent.com/OnurCreed/secretsource/main/teohook.dll > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\Teohook Setup\DLL and Injector\teohook.dll" https://raw.githubusercontent.com/OnurCreed/secretsource/main/teohook.dll > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\Teohook Setup\DLL and Injector\Extreme-Injector.exe" https://raw.githubusercontent.com/OnurCreed/secretsource/main/Extreme-Injector.exe > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\Teohook Setup\VPN\Hide.Me-Setup.exe" https://hide.me/downloads/Hide.me-Setup-3.8.3.exe > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\Teohook Setup\Latest GT\Latest Growtopia.exe" https://ubistatic-a.akamaihd.net/0098/31789/GrowtopiaInstaller.exe > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\Teohook Setup\Important\items.dat" https://raw.githubusercontent.com/OnurCreed/secretsource/main/items.dat > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\Teohook Setup\Important\crashfix.txt" https://raw.githubusercontent.com/OnurCreed/secretsource/main/crashfix.txt > out.txt 2>&1
 del /f "C:\Users\Public\Desktop\Microsoft Edge.lnk"
 del /f "C:\Users\administrator\Desktop\Microsoft Edge.lnk"
 net user administrator capci@1234 /add >nul
