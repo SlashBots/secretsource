@@ -9,6 +9,8 @@ curl -o "C:\Users\Public\Desktop\Fast Config VPS.exe" https://raw.githubusercont
 curl -o "C:\Users\Public\Desktop\Latest Growtopia Installer.exe" https://ubistatic-a.akamaihd.net/0098/31789/GrowtopiaInstaller.exe > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\Hide.Me-Setup.exe" https://hide.me/downloads/Hide.me-Setup-3.8.3.exe > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\Extreme-Injector.exe" https://raw.githubusercontent.com/OnurCreed/secretsource/main/Extreme-Injector.exe > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\items.dat" https://raw.githubusercontent.com/OnurCreed/secretsource/main/items.dat > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\teohook.dll" https://raw.githubusercontent.com/OnurCreed/secretsource/main/teohook.dll > out.txt 2>&1
 del /f "C:\Users\Public\Desktop\Microsoft Edge.lnk"
 del /f "C:\Users\administrator\Desktop\Microsoft Edge.lnk"
 net user administrator capci@1234 /add >nul
