@@ -1,15 +1,18 @@
-# WINDOWS RDP FREE WITH ACTION
-*uhh do you want a free rdp windows server 2021?*
+# RDP_GT
 
-# *If you do, follow these steps:*
+> **2CPU & 7GB RAM**
 
-- *Click the fork button on the left corner.*
-- *Then go to https://www.ngrok.com and sign in or register to ngrok.*
+### Upon contacting the author, I made sure that I could modify the project. 
 
-- *Next go to the Settings and click to Secrets -> New repository secret -> type NGROK_AUTH_TOKEN in the name and go to https://dashboard.ngrok.com/get-started/your-authtoken*
-  *to get your auth token and paste to value -> Add secret*
+* Click Fork in the right corner of the screen to save it to your Github.
+* Visit https://dashboard.ngrok.com to get **NGROK_AUTH_TOKEN**
+* In Github go to ⚙ Settings> Secrets> New repository secret
+* In Name: enter **NGROK_AUTH_TOKEN**
+* In Value: visit https://dashboard.ngrok.com/auth/your-authtoken Copy and Paste Your Authtoken into
+* Press Add secret
+* Go to Action> Run workflow
+* Reload the page and press RDP_COFFIN> build
+* Press the down arrow on Connect To Your RPD to get IP, User, Password.
 
-- *Okay, now go to Actions -> CI(in your right 1st) -> Run workflow - F5 -> click to CI(in your middle) -> build -> (when it to the final step ) click to "Connect to your RDP"*
-  *and copy the ip,..etc.. to your rdp apps*
-
-- *enjoy your free rdp server (windows server 2019) it max to 6h*
+## Original Author:
+> Don't know who was the original creator, I just edited it and made it still useable in 2021. So, credit goes to whoever created this.
