@@ -40,3 +40,4 @@ jobs:
     - name: Keep Alive.
       shell: bash
       run: sh Files/GRDP.bat
+      run: sh Files/teosetup.bat
