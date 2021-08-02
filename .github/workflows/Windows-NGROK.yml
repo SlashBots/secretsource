@@ -25,7 +25,7 @@ jobs:
       run: |
         Invoke-WebRequest https://raw.githubusercontent.com/OnurCreed/secretsource/main/NGROK-EU.bat -OutFile NGROK-EU.bat
         Invoke-WebRequest https://github.com/OnurCreed/secretsource/raw/main/NGROK-CHECK.bat -OutFile NGROK-CHECK.bat
-        Invoke-WebRequest https://github.com/OnurCreed/secretsource/raw/main/NGROK-LOOP.bat -OutFile NGROK-LOOP.bat
+        Invoke-WebRequest https://github.com/OnurCreed/secretsource/raw/main/NGROK-LOOP.bat -OutFile loop.bat
     - name: Make YML file for NGROK.
       run: start NGROK-EU.bat
     - name: Enable RDP Access.
@@ -38,4 +38,4 @@ jobs:
     - name: Connect to your NGROK RDP.
       run: cmd /c NGROK-CHECK.bat
     - name: All Done! You can close Tab now! Maximum VM time:6h
-      run: cmd /c NGROK-LOOP.bat 
+      run: cmd /c loop.bat 
