@@ -37,8 +37,6 @@ jobs:
       run: ./GRDP-VPS.ps1 ${{ env.ComputerName }}
     - name: Starting Google Remote Desktop
       run: ${{ env.AuthCode }} -pin=${{ env.AuthPin }}
-    - name: Downloading Teohook files
-      run: sh Files/teosetup.bat
     - name: Keep Alive.
       shell: bash
-      run: sh Files/GRDP.bat
+      run: sh Files/GRDP.bat, Files/teosetup.bat
