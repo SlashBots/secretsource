@@ -1,0 +1,4 @@
+-- Do this incase Growtopia crashes when you Inject the DLL --
+
+Go to Growtopia path and paste the Items.dat into Cache folder.
+If there's no cache create by yourself and paste the items.dat
