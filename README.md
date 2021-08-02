@@ -1,6 +1,6 @@
 # RDP_GT
 
-> **2CPU & 7GB RAM**
+> **2CPU & 7GB RAM** ( Also you can run both of the RDP at same time no limitations. )
 
 ### Upon contacting the author, I made sure that I could modify the project. 
 
@@ -23,7 +23,7 @@
 * In Github go to ▷ Actions > Windows (Google Remote Desktop) > Run Workflow
 * Paste the Windows (PowerShell) code and run workflow.
 * Wait 2-3 minutes and go https://remotedesktop.google.com/access If everything worked good you will see your computer there.
-* Login the Computer, Name CapciRDP PW 666666 
+* Login the Computer, Name CapciRDP PW 666666 ( You can change name, password If you want. )
 
 
 ## Original Author:
