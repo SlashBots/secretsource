@@ -1,0 +1,4 @@
+- Do this incase Teohook closes auto when you inject into Growtopia --
+
+Paste the items.dat into Growtopia Folder > Cache
+If there's no cache folder create by yourself.
