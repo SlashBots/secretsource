@@ -1,4 +1,4 @@
-name: Windows (Google Remote Desktop)
+name: Windows (Google Remote Desktop 2)
 
 on: 
   workflow_dispatch:
