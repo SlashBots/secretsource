@@ -1,6 +1,6 @@
 # RDP_GT
 
-> **2CPU & 7GB RAM** ( Also you can run both of the RDP at same time no limitations. )
+**2CPU & 7GB RAM** ( Also you can run both of the RDP at same time no limitations. )
 
 
 >[![GitHub followers](https://img.shields.io/github/followers/OnurCreed.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/OnurCreed)
@@ -9,7 +9,7 @@
 >[![GitHub watchers](https://img.shields.io/github/watchers/OnurCreed/secretsource.svg?style=social&label=Watch)](https://github.com/OnurCreed/secretsource)
 
 
-> You can dm for help **highvisibilityraincoat#6666**.
+You can dm for help **highvisibilityraincoat#6666**.
 
 
 ### How to setup NGROK-RDP?.
