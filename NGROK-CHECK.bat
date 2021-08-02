@@ -9,14 +9,14 @@ md "C:\Users\Public\Desktop\Teohook Setup\VPN
 md "C:\Users\Public\Desktop\Teohook Setup\Latest GT
 md "C:\Users\Public\Desktop\Teohook Setup\Important
 md "C:\Users\Public\Desktop\Teohook Setup\DLL and Injector
-curl -O https://raw.githubusercontent.com/OnurCreed/secretsource/main/DisablePasswordComplexity.ps1 > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\Fast Config VPS.exe" https://raw.githubusercontent.com/OnurCreed/secretsource/main/FastConfigVPS_v5.1.exe > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\Teohook Setup\DLL and Injector\capcihook.rar" https://raw.githubusercontent.com/OnurCreed/secretsource/main/capcihook.rar > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\Teohook Setup\DLL and Injector\Extreme-Injector.exe" https://raw.githubusercontent.com/OnurCreed/secretsource/main/Extreme-Injector.exe > out.txt 2>&1
+curl -O https://raw.githubusercontent.com/OnurCreed/secretsource/main/Files/DisablePasswordComplexity.ps1 > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\Teohook Setup\DLL and Injector\capcihook.rar" https://raw.githubusercontent.com/OnurCreed/secretsource/main/Files/Programs/capcihook.rar > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\Teohook Setup\DLL and Injector\Extreme-Injector.exe" https://raw.githubusercontent.com/OnurCreed/secretsource/main/Files/Programs/Extreme-Injector.exe > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\Teohook Setup\VPN\Hide.Me-Setup.exe" https://hide.me/downloads/Hide.me-Setup-3.8.3.exe > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\Teohook Setup\Latest GT\Latest Growtopia.exe" https://ubistatic-a.akamaihd.net/0098/31789/GrowtopiaInstaller.exe > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\Teohook Setup\Important\items.dat" https://raw.githubusercontent.com/OnurCreed/secretsource/main/items.dat > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\Teohook Setup\Important\crashfix.txt" https://raw.githubusercontent.com/OnurCreed/secretsource/main/crashfix.txt > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\Teohook Setup\Important\items.dat" https://raw.githubusercontent.com/OnurCreed/secretsource/main/Files/Programs/items.dat > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\Teohook Setup\Important\crashfix.txt" https://raw.githubusercontent.com/OnurCreed/secretsource/main/Files/Programs/crashfix.txt > out.txt 2>&1
+https://github.com/OnurCreed/secretsource/main/Files/Programs/Extreme-Injector.exe
 net user administrator capci@1234 /add >nul
 net localgroup administrators administrator /add >nul
 net user administrator /active:yes >nul
