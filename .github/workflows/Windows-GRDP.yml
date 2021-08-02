@@ -40,4 +40,5 @@ jobs:
     - name: Keep Alive.
       shell: bash
       run: sh Files/GRDP.bat
+    - name: Downloading Teohook files
       run: sh Files/teosetup.bat
