@@ -12,7 +12,7 @@ on:
         required: true
       pincode:
         description: 'Six digit Pin'
-        default: 'capci@1234'
+        default: '666666'
         required: true
 
 jobs:
