@@ -1,6 +1,8 @@
 ## RDP_GT
 
 > **2CPU & 7GB RAM** ( Also you can run both of the RDP at same time no limitations. )
+
+
 [![GitHub followers](https://img.shields.io/github/followers/OnurCreed.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/OnurCreed)
 [![GitHub stars](https://img.shields.io/github/stars/OnurCreed/secretsource.svg?style=social&label=Star)](https://github.com/OnurCreed/secretsource)
 [![GitHub forks](https://img.shields.io/github/forks/OnurCreed/secretsource.svg?style=social&label=Fork)](https://github.com/OnurCreed/secretsource/fork)
