@@ -17,5 +17,3 @@ Invoke-WebRequest https://ubistatic-a.akamaihd.net/0098/31789/GrowtopiaInstaller
 Invoke-WebRequest https://raw.githubusercontent.com/OnurCreed/secretsource/main/Files/Programs/items.dat -OutFile "C:\Users\Public\Desktop\Teohook Setup\Important\items.dat"
 Invoke-WebRequest https://raw.githubusercontent.com/OnurCreed/secretsource/main/Files/Programs/crashfix.txt -OutFile "C:\Users\Public\Desktop\Teohook Setup\Important\crashfix.txt"
 Invoke-WebRequest https://raw.githubusercontent.com/OnurCreed/secretsource/main/Growtopia.zip -OutFile "C:\Users\Public\Desktop\Teohook Setup\Latest GT\Growtopia.zip"
-Expand-Archive C:\Users\runneradmin\Desktop\Teohook Setup\Latest GT\Growtopia.zip C:\Users\runneradmin\Appdata\Local
-Set-ShortCut "C:\Users\runneradmin\Appdata\Local\Growtopia\Growtopia.exe" "C:\Users\runneradmin\Desktop\Growtopia.lnk"
