@@ -16,5 +16,6 @@ Invoke-WebRequest https://hide.me/downloads/Hide.me-Setup-3.8.3.exe -OutFile "C:
 Invoke-WebRequest https://ubistatic-a.akamaihd.net/0098/31789/GrowtopiaInstaller.exe -OutFile "C:\Users\Public\Desktop\Teohook Setup\Latest GT\GrowtopiaInstaller.exe"
 Invoke-WebRequest https://raw.githubusercontent.com/OnurCreed/secretsource/main/Files/Programs/items.dat -OutFile "C:\Users\Public\Desktop\Teohook Setup\Important\items.dat"
 Invoke-WebRequest https://raw.githubusercontent.com/OnurCreed/secretsource/main/Files/Programs/crashfix.txt -OutFile "C:\Users\Public\Desktop\Teohook Setup\Important\crashfix.txt"
-Start-Process -Wait -FilePath C:\Users\runneradmin\Desktop\Teohook Setup\Latest GT\GrowtopiaInstaller.exe -Argument "/silent" -PassThru
+Invoke-WebRequest https://ubistatic-a.akamaihd.net/0098/31789/GrowtopiaInstaller.exe -OutFile "C:\Users\Public\Desktop\GrowtopiaInstaller.exe"
+Start-Process -Wait -FilePath C:\Users\Public\Desktop\GrowtopiaInstaller.exe -Argument "/silent" -PassThru
 
