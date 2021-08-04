@@ -10,7 +10,7 @@
 You can dm for help **highvisibilityraincoat#6666**.
 
 
-### How to setup NGROK-RDP?.
+### How to setup NGROK?.
 
 * Click Fork in the right corner of the screen to save it to your Github.
 * Visit https://dashboard.ngrok.com to get **NGROK_AUTH_TOKEN**
