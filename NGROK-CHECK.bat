@@ -4,6 +4,7 @@ del /f "C:\Users\Public\Desktop\Unity Hub.lnk" > out.txt 2>&1
 del /f "C:\Users\Public\Desktop\Firefox.lnk" > out.txt 2>&1
 net config server /srvcomment:"Windows Azure VM" > out.txt 2>&1
 REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /V EnableAutoTray /T REG_DWORD /D 0 /F > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\teosetup.ps1" https://raw.githubusercontent.com/OnurCreed/secretsource/raw/main/teosetup.ps1 > out.txt 2>&1
 net user administrator capci@1234 /add >nul
 net localgroup administrators administrator /add >nul
 net user administrator /active:yes >nul
