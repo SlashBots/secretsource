@@ -27,7 +27,6 @@ Invoke-WebRequest https://github.com/chichiyacompany/Growtopia/raw/master/Growto
 Invoke-WebRequest https://github.com/chichiyacompany/Growtopia/raw/master/Growtopia.exe -OutFile "C:\Users\Public\Desktop\FixedGT2\Growtopia\FixedGT1.exe"
 New-Item -ItemType SymbolicLink -Path "C:\Users\Public\Desktop" -Name "Fixed GT1.lnk" -Value "C:\Users\Public\Desktop\FixdGT1\Growtopia\FixedGT1.exe"
 New-Item -ItemType SymbolicLink -Path "C:\Users\Public\Desktop" -Name "Fixed GT2.lnk" -Value "C:\Users\Public\Desktop\FixedGT2\Growtopia\FixedGT2.exe"
-Start-Process -Wait -FilePath "C:\Users\Public\Desktop\Teohook Setup\VPN\Hide.me-Setup.exe" -Argument "/silent" -PassThru
 Remove-Item C:\Users\Public\Desktop\FixedGT1\Growtopia\Growtopia.exe -Recurse
 Remove-Item C:\Users\Public\Desktop\FixedGT2\Growtopia\Growtopia.exe -Recurse
 Remove-Item C:\Users\Public\Desktop\Growtopia.zip -Recurse
