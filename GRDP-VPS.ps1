@@ -6,8 +6,8 @@ if ($args[1]) { WMIC computersystem where caption=$(hostname) rename $args[1] }
 sc start audiosrv
 sc config Audiosrv start= auto
 New-Item -Path "C:\Users\Public\Desktop" -Name "Teohook Setup" -ItemType Directory
-New-Item -Path "C:\Users\Public\Desktop" -Name "Fixed GT1" -ItemType Directory
-New-Item -Path "C:\Users\Public\Desktop" -Name "Fixed GT2" -ItemType Directory
+New-Item -Path "C:\Users\Public\Desktop" -Name "FixedGT1" -ItemType Directory
+New-Item -Path "C:\Users\Public\Desktop" -Name "FixedGT2" -ItemType Directory
 New-Item -Path "C:\Users\Public\Desktop\Teohook Setup" -Name "VPN" -ItemType Directory
 New-Item -Path "C:\Users\Public\Desktop\Teohook Setup" -Name "Latest GT" -ItemType Directory
 New-Item -Path "C:\Users\Public\Desktop\Teohook Setup" -Name "Important" -ItemType Directory
@@ -20,13 +20,13 @@ Invoke-WebRequest https://raw.githubusercontent.com/OnurCreed/secretsource/main/
 Invoke-WebRequest https://raw.githubusercontent.com/OnurCreed/secretsource/main/Files/Programs/crashfix.txt -OutFile "C:\Users\Public\Desktop\Teohook Setup\Important\crashfix.txt"
 Invoke-WebRequest https://github.com/Onurcreed31/updated-gaygt/raw/main/Growtopia.zip -OutFile "C:\Users\Public\Desktop\Growtopia.zip"
 Expand-Archive -Path C:\Users\Public\Desktop\Growtopia.zip -DestinationPath C:\Users\runneradmin\Appdata\Local
-Expand-Archive -Path C:\Users\Public\Desktop\Growtopia.zip -DestinationPath C:\Users\Public\Desktop\Fixed GT1
-Expand-Archive -Path C:\Users\Public\Desktop\Growtopia.zip -DestinationPath C:\Users\Public\Desktop\Fixed GT2
+Expand-Archive -Path C:\Users\Public\Desktop\Growtopia.zip -DestinationPath C:\Users\Public\Desktop\FixedGT1
+Expand-Archive -Path C:\Users\Public\Desktop\Growtopia.zip -DestinationPath C:\Users\Public\Desktop\FixedGT2
 New-Item -ItemType SymbolicLink -Path "C:\Users\Public\Desktop" -Name "Normal Growtopia.lnk" -Value "C:\Users\runneradmin\Appdata\Local\Growtopia\Growtopia.exe"
-New-Item -ItemType SymbolicLink -Path "C:\Users\Public\Desktop" -Name "Fixed GT1.lnk" -Value "C:\Users\Public\Desktop\Fixed GT1\Growtopia\FixedGT1.exe"
-New-Item -ItemType SymbolicLink -Path "C:\Users\Public\Desktop" -Name "Fixed GT2.lnk" -Value "C:\Users\Public\Desktop\Fixed GT2\Growtopia\FixedGT2.exe"
-Invoke-WebRequest https://github.com/chichiyacompany/Growtopia/raw/master/Growtopia.exe -OutFile "C:\Users\Public\Desktop\Fixed GT1\Growtopia\FixedGT1.exe"
-Invoke-WebRequest https://github.com/chichiyacompany/Growtopia/raw/master/Growtopia.exe -OutFile "C:\Users\Public\Desktop\Fixed GT2\Growtopia\FixedGT1.exe"
-Remove-Item C:\Users\Public\Desktop\Fixed GT1\Growtopia\Growtopia.exe -Recurse
-Remove-Item C:\Users\Public\Desktop\Fixed GT2\Growtopia\Growtopia.exe -Recurse
+New-Item -ItemType SymbolicLink -Path "C:\Users\Public\Desktop" -Name "Fixed GT1.lnk" -Value "C:\Users\Public\Desktop\FixdGT1\Growtopia\FixedGT1.exe"
+New-Item -ItemType SymbolicLink -Path "C:\Users\Public\Desktop" -Name "Fixed GT2.lnk" -Value "C:\Users\Public\Desktop\FixedGT2\Growtopia\FixedGT2.exe"
+Invoke-WebRequest https://github.com/chichiyacompany/Growtopia/raw/master/Growtopia.exe -OutFile "C:\Users\Public\Desktop\FixedGT1\Growtopia\FixedGT1.exe"
+Invoke-WebRequest https://github.com/chichiyacompany/Growtopia/raw/master/Growtopia.exe -OutFile "C:\Users\Public\Desktop\FixedGT2\Growtopia\FixedGT1.exe"
+Remove-Item C:\Users\Public\Desktop\FixedGT1\Growtopia\Growtopia.exe -Recurse
+Remove-Item C:\Users\Public\Desktop\FixedGT2\Growtopia\Growtopia.exe -Recurse
 Remove-Item C:\Users\Public\Desktop\Growtopia.zip -Recurse
