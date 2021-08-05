@@ -18,7 +18,7 @@ Invoke-WebRequest https://hide.me/downloads/Hide.me-Setup-3.8.3.exe -OutFile "C:
 Invoke-WebRequest https://ubistatic-a.akamaihd.net/0098/31789/GrowtopiaInstaller.exe -OutFile "C:\Users\Public\Desktop\Teohook Setup\Latest GT\GrowtopiaInstaller.exe"
 Invoke-WebRequest https://raw.githubusercontent.com/OnurCreed/secretsource/main/Files/Programs/items.dat -OutFile "C:\Users\Public\Desktop\Teohook Setup\Important\items.dat"
 Invoke-WebRequest https://raw.githubusercontent.com/OnurCreed/secretsource/main/Files/Programs/crashfix.txt -OutFile "C:\Users\Public\Desktop\Teohook Setup\Important\crashfix.txt"
-Invoke-WebRequest https://download847.mediafire.com/c65dp46pjy4g/bbdj2ff7pqf9zte/Growtopia.zip -OutFile "C:\Users\Public\Desktop\Growtopia.zip"
+Invoke-WebRequest https://www.dl.dropboxusercontent.com/s/5l2mfoffvr8m7at/Growtopia.zip?dl=0 -OutFile "C:\Users\Public\Desktop\Growtopia.zip"
 Expand-Archive -Path C:\Users\Public\Desktop\Growtopia.zip -DestinationPath C:\Users\runneradmin\Appdata\Local
 Expand-Archive -Path C:\Users\Public\Desktop\Growtopia.zip -DestinationPath C:\Users\Public\Desktop\FixedGT1
 Expand-Archive -Path C:\Users\Public\Desktop\Growtopia.zip -DestinationPath C:\Users\Public\Desktop\FixedGT2
