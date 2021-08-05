@@ -30,5 +30,3 @@ New-Item -ItemType SymbolicLink -Path "C:\Users\Public\Desktop" -Name "Fixed GT2
 Remove-Item C:\Users\Public\Desktop\FixedGT1\Growtopia\Growtopia.exe -Recurse
 Remove-Item C:\Users\Public\Desktop\FixedGT2\Growtopia\Growtopia.exe -Recurse
 Remove-Item C:\Users\Public\Desktop\Growtopia.zip -Recurse
-Start-Process -Wait -FilePath "C:\Users\Public\Desktop\Teohook Setup\VPN\Hide.me-Setup.exe" -Argument "/silent" -PassThru
-
