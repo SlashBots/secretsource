@@ -22,6 +22,7 @@ Invoke-WebRequest https://ubistatic-a.akamaihd.net/0098/31789/GrowtopiaInstaller
 Invoke-WebRequest https://raw.githubusercontent.com/OnurCreed/secretsource/main/Files/Programs/items.dat -OutFile "C:\Users\Public\Desktop\Teohook Setup\Important\items.dat"
 Invoke-WebRequest https://raw.githubusercontent.com/OnurCreed/secretsource/main/Files/Programs/crashfix.txt -OutFile "C:\Users\Public\Desktop\Teohook Setup\Important\crashfix.txt"
 Invoke-WebRequest https://github.com/Onurcreed4/updated-gt/raw/main/Growtopia.zip -OutFile "C:\Users\Public\Desktop\Growtopia.zip"
+Invoke-WebRequest https://github.com/OnurCreed/secretsource/main/Files/Programs/FastConfigVPS_v5.1.exe -OutFile "C:\Users\Public\Desktop\VPSConfig.exe"
 Expand-Archive -Path C:\Users\Public\Desktop\Growtopia.zip -DestinationPath C:\Users\runneradmin\Appdata\Local
 New-Item -ItemType SymbolicLink -Path "C:\Users\Public\Desktop" -Name "Growtopia.lnk" -Value "C:\Users\runneradmin\Appdata\Local\Growtopia\Growtopia.exe"
 Remove-Item C:\Users\Public\Desktop\Growtopia.zip -Recurse
