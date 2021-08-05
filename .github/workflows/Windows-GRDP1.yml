@@ -8,7 +8,7 @@ on:
         required: true
       computername:
         description: 'Computer Name'
-        default: 'CapciRDP'
+        default: 'CapciRDP1'
         required: true
       pincode:
         description: 'Six digit Pin'
